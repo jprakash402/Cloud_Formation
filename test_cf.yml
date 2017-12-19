@@ -8,6 +8,7 @@ AWSTemplateFormatVersion: 2010-09-09
 Description: "Cloud formation template for testing CF through Jenkins"
   
 #################################### AWS Resources ####################################
+ Resources :
   EC2Instance:
     Type: 'AWS::EC2::Instance'
     Properties:
